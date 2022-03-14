@@ -1,0 +1,10 @@
+# 支付宝支付参数配置
+alipay:
+  app_id: 公司支付宝的APPID
+  merchant_private_key: 公司支付宝商户私钥
+  alipay_public_key: 公司支付宝公钥
+  notify_url: alipay 异步回调地址
+  return_url: alipay 同步回调地址（我们做二维码扫码是异步操作，没用，可以不配置）
+  sign_type: RSA2
+  charset: utf-8
+  gatewayUrl: https://openapi.alipay.com/gateway.do
